@@ -2,5 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-\Figures
-\Results
+Results/
+Figures/
