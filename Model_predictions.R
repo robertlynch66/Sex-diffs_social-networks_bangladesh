@@ -1,7 +1,7 @@
 library(tidyverse)
 library(brms)
 library(readr)
-
+## read in data
 husbands_new <- read.csv("C:/Users/robert/Dropbox/Github/Intensive extensive kin networks/data/husbands_new.csv", header = T, sep = ",")
 
 husbands_new$percent_rels_in_NW<- as.numeric(husbands_new$percent_rels_in_NW)
